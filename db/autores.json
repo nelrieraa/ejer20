@@ -1,0 +1,44 @@
+[
+  {
+    "referencia": "AUT001",
+    "nombre": "Gabriel García Márquez",
+    "nacionalidad": "Colombiana",
+    "fechaNacimiento": "1927-03-06",
+    "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Gabriel_Garcia_Marquez.jpg/440px-Gabriel_Garcia_Marquez.jpg"
+  },
+  {
+    "referencia": "AUT002",
+    "nombre": "Miguel de Cervantes",
+    "nacionalidad": "Española",
+    "fechaNacimiento": "1547-09-29",
+    "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Cervantes_J%C3%A1uregui.jpg/440px-Cervantes_J%C3%A1uregui.jpg"
+  },
+  {
+    "referencia": "AUT003",
+    "nombre": "George Orwell",
+    "nacionalidad": "Británica",
+    "fechaNacimiento": "1903-06-25",
+    "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/George_Orwell_press_photo.jpg/440px-George_Orwell_press_photo.jpg"
+  },
+  {
+    "referencia": "AUT004",
+    "nombre": "Isabel Allende",
+    "nacionalidad": "Chilena",
+    "fechaNacimiento": "1942-08-02",
+    "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Isabel_Allende_2015.jpg/440px-Isabel_Allende_2015.jpg"
+  },
+  {
+    "referencia": "AUT005",
+    "nombre": "J.R.R. Tolkien",
+    "nacionalidad": "Británica",
+    "fechaNacimiento": "1892-01-03",
+    "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/J._R._R._Tolkien%2C_ca._1925.jpg/440px-J._R._R._Tolkien%2C_ca._1925.jpg"
+  },
+  {
+    "referencia": "AUT006",
+    "nombre": "Ana María Matute",
+    "nacionalidad": "Española",
+    "fechaNacimiento": "1925-07-26",
+    "imagenUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ana_Maria_Matute_cropped.jpg/440px-Ana_Maria_Matute_cropped.jpg"
+  }
+]

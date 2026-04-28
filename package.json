@@ -1,0 +1,18 @@
+{
+  "name": "biblioteca-api",
+  "version": "1.0.0",
+  "description": "API REST para gestión de biblioteca con MongoDB Atlas",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.2.1",
+    "mongoose": "^8.9.4",
+    "morgan": "^1.10.1"
+  }
+}

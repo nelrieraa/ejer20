@@ -1,0 +1,74 @@
+[
+  {
+    "referencia": "LIB001",
+    "titulo": "Cien años de soledad",
+    "genero": "Realismo Mágico",
+    "anyoPublicacion": 1967,
+    "autor": "AUT001",
+    "imagenUrl": "https://covers.openlibrary.org/b/id/8231990-L.jpg"
+  },
+  {
+    "referencia": "LIB002",
+    "titulo": "El amor en los tiempos del cólera",
+    "genero": "Romance",
+    "anyoPublicacion": 1985,
+    "autor": "AUT001",
+    "imagenUrl": "https://covers.openlibrary.org/b/id/8234619-L.jpg"
+  },
+  {
+    "referencia": "LIB003",
+    "titulo": "Don Quijote de la Mancha",
+    "genero": "Novela",
+    "anyoPublicacion": 1605,
+    "autor": "AUT002",
+    "imagenUrl": "https://covers.openlibrary.org/b/id/8739161-L.jpg"
+  },
+  {
+    "referencia": "LIB004",
+    "titulo": "1984",
+    "genero": "Ciencia Ficción",
+    "anyoPublicacion": 1949,
+    "autor": "AUT003",
+    "imagenUrl": "https://covers.openlibrary.org/b/id/8575708-L.jpg"
+  },
+  {
+    "referencia": "LIB005",
+    "titulo": "Rebelión en la granja",
+    "genero": "Sátira Política",
+    "anyoPublicacion": 1945,
+    "autor": "AUT003",
+    "imagenUrl": "https://covers.openlibrary.org/b/id/8228691-L.jpg"
+  },
+  {
+    "referencia": "LIB006",
+    "titulo": "La casa de los espíritus",
+    "genero": "Realismo Mágico",
+    "anyoPublicacion": 1982,
+    "autor": "AUT004",
+    "imagenUrl": "https://covers.openlibrary.org/b/id/8228014-L.jpg"
+  },
+  {
+    "referencia": "LIB007",
+    "titulo": "El señor de los anillos",
+    "genero": "Fantasía",
+    "anyoPublicacion": 1954,
+    "autor": "AUT005",
+    "imagenUrl": "https://covers.openlibrary.org/b/id/8406786-L.jpg"
+  },
+  {
+    "referencia": "LIB008",
+    "titulo": "El Hobbit",
+    "genero": "Fantasía",
+    "anyoPublicacion": 1937,
+    "autor": "AUT005",
+    "imagenUrl": "https://covers.openlibrary.org/b/id/8406814-L.jpg"
+  },
+  {
+    "referencia": "LIB009",
+    "titulo": "Los hijos muertos",
+    "genero": "Novela",
+    "anyoPublicacion": 1958,
+    "autor": "AUT006",
+    "imagenUrl": "https://covers.openlibrary.org/b/id/12547893-L.jpg"
+  }
+]
