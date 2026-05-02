@@ -8,7 +8,6 @@ function findLibro(id) {
   return Libro.findOne({ referencia: id });
 }
 
-// GET /api/libros?sort=titulo
 router.get('/', async (req, res) => {
   const query = Libro.find();
   if (req.query.sort) query.sort({ [req.query.sort]: 1 });
@@ -16,21 +15,18 @@ router.get('/', async (req, res) => {
   res.json(libros);
 });
 
-// GET /api/libros/:id
 router.get('/:id', async (req, res) => {
   const libro = await findLibro(req.params.id);
   if (!libro) return res.status(404).json({ error: 'Libro no encontrado' });
   res.json(libro);
 });
 
-// POST /api/libros
 router.post('/', async (req, res) => {
   const libro = new Libro(req.body);
   await libro.save();
   res.status(201).json(libro);
 });
 
-// PUT /api/libros/:id
 router.put('/:id', async (req, res) => {
   let libro;
   if (mongoose.isValidObjectId(req.params.id)) {
@@ -42,7 +38,6 @@ router.put('/:id', async (req, res) => {
   res.json(libro);
 });
 
-// DELETE /api/libros/:id
 router.delete('/:id', async (req, res) => {
   let libro;
   if (mongoose.isValidObjectId(req.params.id)) {

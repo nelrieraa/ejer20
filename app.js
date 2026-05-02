@@ -34,7 +34,7 @@ app.use((err, req, res, next) => {
 });
 
 if (!process.env.VERCEL) {
-  app.listen(PORT, () => console.log(`📚 API corriendo en http://localhost:${PORT}`));
+  app.listen(PORT, () => console.log(`API corriendo en http://localhost:${PORT}`));
 }
 
 module.exports = app;

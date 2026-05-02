@@ -9,7 +9,6 @@ function findAutor(id) {
   return Autor.findOne({ referencia: id });
 }
 
-// GET /api/autores?nacionalidad=Española
 router.get('/', async (req, res) => {
   const filter = {};
   if (req.query.nacionalidad) filter.nacionalidad = req.query.nacionalidad;
@@ -17,14 +16,12 @@ router.get('/', async (req, res) => {
   res.json(autores);
 });
 
-// GET /api/autores/:id
 router.get('/:id', async (req, res) => {
   const autor = await findAutor(req.params.id);
   if (!autor) return res.status(404).json({ error: 'Autor no encontrado' });
   res.json(autor);
 });
 
-// GET /api/autores/:id/libros
 router.get('/:id/libros', async (req, res) => {
   const autor = await findAutor(req.params.id);
   if (!autor) return res.status(404).json({ error: 'Autor no encontrado' });
@@ -32,14 +29,12 @@ router.get('/:id/libros', async (req, res) => {
   res.json(libros);
 });
 
-// POST /api/autores
 router.post('/', async (req, res) => {
   const autor = new Autor(req.body);
   await autor.save();
   res.status(201).json(autor);
 });
 
-// PUT /api/autores/:id
 router.put('/:id', async (req, res) => {
   let autor;
   if (mongoose.isValidObjectId(req.params.id)) {
@@ -51,7 +46,6 @@ router.put('/:id', async (req, res) => {
   res.json(autor);
 });
 
-// DELETE /api/autores/:id
 router.delete('/:id', async (req, res) => {
   let autor;
   if (mongoose.isValidObjectId(req.params.id)) {
